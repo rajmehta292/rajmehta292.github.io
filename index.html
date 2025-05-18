@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meht4 Access</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme"> <header>
+        <img src="MehtaLogoWhiteNoBackground.png" alt="Mehta Logo" id="logoImage" class="logo">
+        <button id="themeToggleBtn">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section id="loginSection" class="active-section">
+            <div class="container">
+                <h1>Enter Access Name</h1>
+                <input type="password" id="passwordInput" placeholder="Enter name">
+                <button id="accessBtn">Access Information</button>
+                <p id="errorMessage" class="error-message"></p>
+            </div>
+        </section>
+
+        <section id="passwordsSection" class="hidden-section">
+            <div class="container">
+                <h1>Information for <span id="sectionName"></span></h1>
+                <div id="passwordsDisplay" class="passwords-list">
+                    <p>Loading...</p>
+                </div>
+                <button id="goBackBtn">Go Back</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

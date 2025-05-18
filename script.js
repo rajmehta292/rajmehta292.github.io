@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const passwordsDisplay = document.getElementById('passwordsDisplay');
     const goBackBtn = document.getElementById('goBackBtn');
 
-    const darkThemeLogo = 'MehtaLogoWhiteNoBackground.png';
-    const lightThemeLogo = 'MehtaLogoNoBackground.png';
+    const darkThemeLogo = 'MehtaLogoWhiteNobackground.png';
+    const lightThemeLogo = 'MehtaLogoNobackground.png';
 
     // --- Theme Management ---
     function applyTheme(theme) {

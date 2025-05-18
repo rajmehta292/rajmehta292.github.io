@@ -54,9 +54,11 @@ header {
 }
 
 .logo {
-    height: 50px; /* Adjust as needed */
-    width: auto;
+  /* ... other styles ... */
+  width: 10vw; /* Example: Logo width is 10% of the viewport width */
+  height: auto;
 }
+
 
 #themeToggleBtn {
     padding: 10px 15px;
